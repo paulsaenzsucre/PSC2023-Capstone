@@ -1,0 +1,263 @@
+/* Import Lato font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Import Bowlby One font */
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+/* Import box icons */
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+/* Import Cocogoose font */
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+
+/* Defining global CSS variables */
+:root {
+  --dark-gray-template: #333333;
+  --orange-template: #ff6633;
+  --light-gray-template: #d3d3d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  color: var(--dark-gray-template);
+}
+
+body {
+  background: white;
+}
+
+section {
+  padding: 1rem;
+  text-align: center;
+}
+
+button {
+  background: var(--orange-template);
+  color: white;
+  padding: 1.5rem 2rem;
+  letter-spacing: 0.03rem;
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.main-cont {
+  text-align: center;
+}
+
+.hero {
+  background: url(/images/mobile-background.svg) no-repeat top;
+  background-size: cover;
+  height: auto;
+}
+
+.top-bar-cont {
+  display: none;
+}
+
+.nav-bar-cont {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 1rem;
+  gap: 1rem;
+}
+
+.hmbgr-btn {
+  width: 2rem;
+  margin: 2rem 1.5rem 0 2rem;
+}
+
+.menu-bar {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 6vh;
+  gap: 7vh;
+  flex: 1 1 0;
+}
+
+.hero-item-cont {
+  padding: 0 0.5em;
+  margin: 1em auto 0;
+  font-size: 7vw;
+}
+
+.hbgr-icon {
+  width: 2rem;
+}
+
+.logo {
+  display: none;
+}
+
+.tagline {
+  font-weight: 400;
+  font-size: 0.8em;
+  color: var(--orange-template);
+}
+
+.title {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 100%;
+  color: var(--orange-template);
+  background: linear-gradient(45deg, #f11704, #b30000, #780802, #f64e10, #f23d08);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subheading {
+  border: 4px solid white;
+  background-color: #f7f7f8;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  font-size: 0.5em;
+  line-height: 150%;
+  height: auto;
+  text-align: justify;
+}
+
+.conf-date {
+  padding-top: 3rem;
+  font-family: 'COCOGOOSE', sans-serif;
+  color: var(--dark-gray-template);
+  font-size: 0.7em;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  letter-spacing: 0;
+}
+
+.conf-location {
+  font-size: 0.4em;
+  font-weight: 400;
+  width: 95%;
+  text-align: left;
+  padding-bottom: 4rem;
+}
+
+.sec-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.sec-title::after {
+  content: '';
+  display: block;
+  margin: 0.8rem auto;
+  text-align: center;
+  width: 2rem;
+  height: 0.063rem;
+  background: var(--orange-template);
+}
+
+.sec-white-title {
+  color: white;
+}
+
+.sec-subtitle {
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.prog-cont {
+  background: url(/images/pattern.svg) var(--dark-gray-template);
+  background-size: 1rem;
+}
+
+.prog-card-cont {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.prog-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 0.5rem;
+  padding: 1rem 0.5rem 1rem 0;
+  gap: 0;
+}
+
+.prog-card-title {
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--orange-template);
+  text-align: left;
+  width: 26%;
+}
+
+.prog-card-desc {
+  color: white;
+  font-weight: 300;
+  font-size: 0.75rem;
+  text-align: left;
+  width: calc(74% - 4.5rem);
+  overflow: auto;
+}
+
+.join-btn {
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.partner-cont {
+  background: var(--dark-gray-template);
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  gap: 0.6rem 2rem;
+}
+
+.partner-logo {
+  width: 5rem;
+}
+
+.partner-logo img {
+  width: 100%;
+}
+
+.logo-winner {
+  width: 100%;
+}
+
+.footer-cont {
+  padding: 2.5rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-logo {
+  width: 8rem;
+}
+
+.footer-desc {
+  font-size: 0.6rem;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
