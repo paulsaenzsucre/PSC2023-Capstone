@@ -73,6 +73,18 @@ button {
   display: none;
 }
 
+.mob-menu {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background: var(--dark-gray-template);
+  opacity: 0.95;
+}
+
 .nav-bar-cont {
   flex-direction: column;
   align-items: flex-start;
@@ -87,6 +99,25 @@ button {
   margin: 2rem 1.5rem 0 2rem;
 }
 
+.close-btn {
+  padding: 2rem;
+  align-self: flex-end;
+}
+
+
+.menu-item {
+  color: white;
+  font-weight: bold;
+}
+
+.disabled {
+  color: #3e3e3e;
+}
+
+.nav-btn {
+  display: none;
+}
+
 .menu-bar {
   display: none;
   flex-direction: column;
@@ -94,6 +125,10 @@ button {
   font-size: 6vh;
   gap: 7vh;
   flex: 1 1 0;
+}
+
+.show-menu {
+  display: flex;
 }
 
 .hero-item-cont {
@@ -225,6 +260,62 @@ button {
 .join-btn {
   display: block;
   margin: 1.5rem auto;
+}
+
+/*** Speaker Section ***/
+
+.speak-card {
+  justify-content: flex-start;
+  margin-bottom: 0.5rem;
+  padding: 1rem 0.5rem 1rem 0;
+  gap: 0;
+}
+
+.speak-card-img {
+  height: 7rem;
+  padding-right: 1rem;
+}
+
+.speak-card-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.speak-card-subtitle {
+  font-size: 0.6rem;
+  font-style: italic;
+  text-align: left;
+  color: var(--orange);
+  padding: 0.4rem 0;
+}
+
+.speak-card-subtitle::after {
+  content: '';
+  display: block;
+  margin: 0.5rem 0;
+  text-align: left;
+  width: 1rem;
+  height: 0.126rem;
+  background: var(--light-gray-template);
+}
+
+.speak-card-desc {
+  font-size: 0.6rem;
+  text-align: left;
+  overflow: auto;
+}
+
+.more-btn {
+  background: white;
+  color: var(--dark-gray);
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.8rem;
+  border: 0.063rem var(--light-gray-template) solid;
+  width: 95%;
 }
 
 .partner-cont {
@@ -403,18 +494,18 @@ button {
   }
 
   .menu-item {
-    color: #2e2e2e;
+    color: var(--dark-gray-template);
     font-weight: bold;
   }
 
   .selected {
-    color: #ef513c;
+    color: var(--orange-template);
   }
 
   .nav-btn {
     display: inline;
-    color: #ef513c;
-    border: #ef513c 0.2rem solid;
+    color: var(--orange-template);
+    border: var(--orange-template) 0.2rem solid;
     padding: 0.7rem 0.7rem;
   }
 
@@ -524,4 +615,8 @@ button {
 
 .hidden {
   display: none;
+}
+
+.scroll-lock {
+  overflow: hidden;
 }

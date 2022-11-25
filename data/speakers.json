@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Rosalie M. Matthews",
+    "subtitle": "Legacy Operations Specialist",
+    "description": "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
+    "image": "images/speaker_01.png",
+    "imgDescription": "Mrs. Rosalie M. Matthews"
+  },
+  {
+    "name": "SohYeong Noh",
+    "subtitle": "Chief Division Producer",
+    "description": "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.",
+    "image": "images/speaker_02.png",
+    "imgDescription": "Mrs. SohYeong Noh"
+  },
+  {
+    "name": "Rene B. Hockett",
+    "subtitle": "Multi-Post Stories",
+    "description": "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
+    "image": "images/speaker_03.png",
+    "imgDescription": "Rene B. Hockett"
+  },
+  {
+    "name": "John V. Stewart",
+    "subtitle": "District Interactions Engineer",
+    "description": "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
+    "image": "images/speaker_04.png",
+    "imgDescription": "John V. Stewart"
+  },
+  {
+    "name": "Lisa T. Demers",
+    "subtitle": "Corporate Security Associate",
+    "description": "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
+    "image": "images/speaker_05.png",
+    "imgDescription": "Lisa T. Demers"
+  },
+  {
+    "name": "Joseph Y. Andrus",
+    "subtitle": "Regional Functionality Manager",
+    "description": "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
+    "image": "images/speaker_06.png",
+    "imgDescription": "Joseph Y. Andrus"
+  },
+  {
+    "name": "Gale J. Jones",
+    "subtitle": "Corporate Accounts Officer",
+    "description": "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
+    "image": "images/speaker_07.png",
+    "imgDescription": "Gale J. Jones"
+  }
+]
