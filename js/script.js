@@ -73,7 +73,7 @@ myMediaQuery.addEventListener('change', () => {
   else document.getElementById('content').classList.remove('scroll-lock');
 });
 
-function showMenu(evt) {
+function showMenu() {
   document.getElementById('nav-bar').classList.toggle('mob-menu');
   let img = document.getElementById('hmbgr-btn');
   img.classList.toggle('hidden');
@@ -94,10 +94,10 @@ function hideMenu() {
 }
 
 function fillAnchors() {
- Array.from(document.getElementsByClassName('menu-item')).forEach(
+  Array.from(document.getElementsByClassName('menu-item')).forEach(
     (element) => {
-      element.addEventListener('click',hideMenu);
-    }
+      element.addEventListener('click', hideMenu);
+    },
   );
 }
 

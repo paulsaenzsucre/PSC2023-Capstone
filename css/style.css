@@ -12,8 +12,8 @@
 
 /* Defining global CSS variables */
 :root {
-  --dark-gray-template: #333333;
-  --orange-template: #ff6633;
+  --dark-gray-template: #333;
+  --orange-template: #f63;
   --light-gray-template: #d3d3d3;
 }
 
@@ -103,7 +103,6 @@ button {
   padding: 2rem;
   align-self: flex-end;
 }
-
 
 .menu-item {
   color: white;
