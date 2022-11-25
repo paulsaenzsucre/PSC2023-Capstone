@@ -324,6 +324,204 @@ button {
   text-align: left;
 }
 
+/* This applies from 768px onwards */
+@media (min-width: 48rem) {
+  .hero {
+    background: url(/images/desktop-background.svg);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-size: cover;
+    height: 53.5rem;
+  }
+
+  .top-bar-cont {
+    display: block;
+    background: #272a31;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1.5rem;
+  }
+
+  .top-bar {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    height: 1.5rem;
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  .top-bar li a,
+  .top-bar li a i {
+    color: white;
+  }
+
+  .nav-bar {
+    display: block;
+    position: fixed;
+    top: 1.5rem;
+    width: 100%;
+    height: 4.5rem;
+    padding: 0.5rem 0;
+    gap: 1rem;
+    background: white;
+  }
+
+  .nav-bar-cont {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  .hmbgr-btn {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  .logo {
+    display: inline;
+    height: 3rem;
+  }
+
+  .menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    gap: 3.5rem;
+    flex: 1 1 0;
+  }
+
+  .menu-item {
+    color: #2e2e2e;
+    font-weight: bold;
+  }
+
+  .selected {
+    color: #ef513c;
+  }
+
+  .nav-btn {
+    display: inline;
+    color: #ef513c;
+    border: #ef513c 0.2rem solid;
+    padding: 0.7rem 0.7rem;
+  }
+
+  .hero-item-cont {
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .main-title {
+    margin-top: 6rem;
+    padding: 6rem 0 0;
+  }
+
+  .about-main-title {
+    margin-top: 6rem;
+    padding: 3rem 0 0;
+  }
+
+  .tagline {
+    font-size: 3rem;
+    margin-top: 5rem;
+  }
+
+  .about-tagline {
+    display: none;
+  }
+
+  .title {
+    max-width: 52rem;
+    font-size: 4.6rem;
+    line-height: 100%;
+  }
+
+  .about-title {
+    font-size: 3rem;
+    line-height: 100%;
+    margin: 3rem auto;
+    text-align: center;
+  }
+
+  .subheading {
+    width: 40rem;
+    font-size: 1rem;
+    padding: 0.6rem 1.4rem;
+  }
+
+  .about-subheading {
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .conf-date {
+    font-size: 2.4rem;
+    text-align: left;
+  }
+
+  .conf-location {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .email-us {
+    font-size: 1rem;
+  }
+
+  .email-us-link {
+    font-size: 1rem;
+  }
+
+  .prog-card-cont {
+    display: inline-flex;
+    max-width: 68rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.188rem;
+  }
+
+  .prog-card {
+    width: 20%;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .prog-card-title {
+    width: auto;
+  }
+
+  .prog-card-desc {
+    width: auto;
+    text-align: center;
+  }
+
+  .speak-card-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 68rem;
+    margin: 0 auto;
+  }
+
+  .speak-card {
+    justify-self: stretch;
+  }
+}
+
 .hidden {
   display: none;
 }
