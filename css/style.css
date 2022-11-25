@@ -45,6 +45,10 @@ button {
   letter-spacing: 0.03rem;
 }
 
+.orange {
+  color: var(--orange-template);
+}
+
 .flex-cont {
   display: flex;
   justify-content: space-between;
@@ -239,8 +243,70 @@ button {
   width: 100%;
 }
 
-.logo-winner {
+.about-hero {
+  background: #f7f7f8 url(/images/about_bg_01.png) no-repeat center 6rem;
+  background-size: contain;
+  height: auto;
+}
+
+.about-item-cont {
+  padding: 0 2.5rem 2.5rem;
+  margin: 1.1em auto 0;
+  font-size: 7.917vw;
+}
+
+.about-tagline {
+  font-weight: 400;
+  font-size: 0.658em;
+  color: var(--orange-template);
+  text-align: center;
+}
+
+.about-title {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 100%;
+  color: var(--orange-template);
+  text-align: center;
+}
+
+.about-subheading {
+  border: 0.25rem solid white;
+  background-color: #f7f7f8;
+  margin-top: 1rem;
   width: 100%;
+  padding: 1rem 0.5rem;
+  font-size: 0.5em;
+  line-height: 150%;
+  height: auto;
+  text-align: center;
+}
+
+.email-us {
+  padding: 1rem 0 0;
+  font-size: 0.5em;
+  line-height: 150%;
+  text-align: center;
+}
+
+.email-us-link {
+  color: black;
+  text-decoration: underline;
+  display: block;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.logo-winner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img-shrink {
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .footer-cont {
