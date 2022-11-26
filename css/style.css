@@ -64,7 +64,7 @@ button {
 }
 
 .hero {
-  background: url(/images/mobile-background.svg) no-repeat top;
+  background: url(images/mobile-background.svg) no-repeat top;
   background-size: cover;
   height: auto;
 }
@@ -220,7 +220,7 @@ button {
 }
 
 .prog-cont {
-  background: url(/images/pattern.svg) var(--dark-gray-template);
+  background: url(images/pattern.svg) var(--dark-gray-template);
   background-size: 1rem;
 }
 
@@ -305,16 +305,24 @@ button {
   overflow: auto;
 }
 
+.more-cont {
+  text-align: center;
+}
+
 .more-btn {
   background: white;
   color: var(--dark-gray);
   font-weight: 600;
   font-size: 0.7rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
   padding: 0.8rem;
   border: 0.063rem var(--light-gray-template) solid;
   width: 95%;
+}
+
+.more-anchor-btn {
+  width: 1rem;
 }
 
 .partner-cont {
@@ -399,17 +407,23 @@ button {
   margin-bottom: 1rem;
 }
 
-.footer-cont {
+.footer-cont, .about-footer-cont {
   padding: 2.5rem;
   justify-content: center;
   gap: 2rem;
 }
 
-.footer-logo {
+.footer-logo,
+.about-footer-logo {
   width: 8rem;
 }
 
-.footer-desc {
+.about-footer-logoW {
+  display: none;
+}
+
+.footer-desc,
+.about-footer-desc {
   font-size: 0.6rem;
   text-align: left;
 }
@@ -600,6 +614,19 @@ button {
     text-align: center;
   }
 
+  .about-footer-logo,
+  .join-btn {
+    display: none;
+  }
+
+  .text-btn {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    margin: 3rem auto;
+  }
+
   .speak-card-cont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -609,6 +636,19 @@ button {
 
   .speak-card {
     justify-self: stretch;
+  }
+
+  .about-footer-cont {
+    background: var(--dark-gray-template);
+  }
+
+  .about-footer-desc p {
+    color: white;
+  }
+
+  .about-footer-logoW {
+    display: block;
+    width: 8rem;
   }
 }
 
