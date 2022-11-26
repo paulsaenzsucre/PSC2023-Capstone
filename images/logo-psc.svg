@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332.35 119.08">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #f63;
+      }
+
+      .cls-1, .cls-4 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-5 {
+        fill: #272a31;
+      }
+
+      .cls-6 {
+        font-family: IBMPlexMono-SemiBold, 'IBM Plex Mono';
+        font-size: 60.27px;
+        font-weight: 600;
+      }
+
+      .cls-4, .cls-7, .cls-8, .cls-9 {
+        fill: #333;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-10 {
+        fill: #0000df;
+      }
+
+      .cls-3 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-11 {
+        fill: none;
+      }
+
+      .cls-9 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-12 {
+        fill: #ec5242;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-6" transform="translate(124 51.17) scale(1.8 1)"><tspan class="cls-4" x="0" y="0">P</tspan><tspan class="cls-1" x="33.09" y="0">S</tspan><tspan class="cls-7" x="66.17" y="0">C</tspan><tspan class="cls-1" x="-16.54" y="52">2</tspan><tspan class="cls-4" x="16.54" y="52">0</tspan><tspan class="cls-3" x="49.63" y="52">2</tspan><tspan class="cls-9" x="82.72" y="52">3</tspan></text>
+      <g>
+        <rect class="cls-11" x="62.46" y="38.82" width="17.14" height=".03"/>
+        <polygon class="cls-8" points="28.19 38.82 28.19 21.16 11.05 21.16 11.05 38.71 11.05 38.82 28.19 38.82"/>
+        <rect class="cls-2" x="28.19" y="21.16" width="17.14" height="17.66"/>
+        <rect class="cls-8" x="45.32" y="21.16" width="17.14" height="17.66"/>
+        <polygon class="cls-2" points="79.59 38.82 79.59 38.76 79.59 21.16 62.46 21.16 62.46 38.82 79.59 38.82"/>
+        <polygon class="cls-2" points="28.19 38.82 11.05 38.82 11.05 56.37 11.05 56.42 28.19 56.42 28.19 38.82"/>
+        <path class="cls-5" d="M45.32,38.85v-.03H28.19v17.6h0c.05-9.71,7.7-17.57,17.13-17.57Z"/>
+        <path class="cls-2" d="M62.46,38.82h-17.14v.03c9.43,0,17.09,7.86,17.13,17.57h0v-17.6Z"/>
+        <rect class="cls-8" x="62.46" y="38.85" width="17.14" height="17.57"/>
+        <polygon class="cls-8" points="28.19 74.03 28.19 56.51 28.19 56.48 11.05 56.48 11.05 74.08 28.19 74.08 28.19 74.03"/>
+        <rect class="cls-5" x="11.05" y="56.42" width="17.14" height=".06"/>
+        <path class="cls-2" d="M28.19,56.51v17.51h14.92c-8.42-1.12-14.92-8.53-14.92-17.51Z"/>
+        <path class="cls-12" d="M28.19,56.48v.03s0-.02,0-.03h0Z"/>
+        <path class="cls-12" d="M28.19,56.42h0v.06h0s0-.04,0-.06Z"/>
+        <path class="cls-8" d="M47.04,74.08h15.41v-17.57c0,9.16-6.76,16.68-15.41,17.57Z"/>
+        <path class="cls-5" d="M62.46,56.51v-.03h0s0,.02,0,.03Z"/>
+        <path class="cls-5" d="M62.46,56.48h0v-.06h0s0,.04,0,.06Z"/>
+        <rect class="cls-2" x="62.46" y="56.51" width="17.14" height="17.57"/>
+        <polygon class="cls-12" points="62.46 56.42 62.46 56.48 62.46 56.51 79.59 56.51 79.59 56.48 79.59 56.42 62.46 56.42"/>
+        <polygon class="cls-2" points="28.19 74.08 11.05 74.08 11.05 91.75 28.19 91.75 28.19 91.69 28.19 74.08"/>
+        <path class="cls-8" d="M43.6,74.08h-15.41v17.6h17.14v-17.51c-.58,0-1.15-.03-1.72-.09Z"/>
+        <path class="cls-5" d="M43.11,74.03h-14.92v.06h15.41c-.16-.02-.33-.04-.49-.06Z"/>
+        <path class="cls-2" d="M45.32,74.17v17.51h17.14v-17.6h-15.41c-.57,.06-1.14,.09-1.72,.09Z"/>
+        <polygon class="cls-8" points="62.46 74.08 62.46 91.69 62.46 91.75 79.59 91.75 79.59 74.14 79.59 74.08 62.46 74.08"/>
+        <rect class="cls-8" x="28.19" y="9.71" width="17.14" height="11.42"/>
+        <polygon class="cls-8" points="11.05 38.71 0 38.71 0 56.37 11.05 56.37 11.05 38.82 11.05 38.71"/>
+        <polygon class="cls-2" points="11.05 56.42 0 56.42 0 74.08 11.05 74.08 11.05 56.48 11.05 56.42"/>
+        <polygon class="cls-2" points="79.59 38.85 79.59 56.42 90.64 56.42 90.64 38.76 79.59 38.76 79.59 38.82 79.59 38.85"/>
+        <polygon class="cls-8" points="79.59 74.08 79.59 74.14 90.64 74.14 90.64 56.48 79.59 56.48 79.59 56.51 79.59 74.08"/>
+        <rect class="cls-2" x="45.32" y="9.71" width="17.14" height="11.42"/>
+        <polygon class="cls-2" points="45.32 91.69 28.19 91.69 28.19 91.75 28.19 103.11 45.32 103.11 45.32 91.75 45.32 91.69"/>
+        <rect class="cls-8" x="45.32" y="91.75" width="17.14" height="11.36"/>
+        <rect class="cls-5" x="45.32" y="91.69" width="17.14" height=".06"/>
+        <path class="cls-10" d="M45.32,74.17v-.09h-1.72c.57,.06,1.14,.09,1.72,.09Z"/>
+        <path class="cls-10" d="M43.6,74.08h1.72v-.06h-2.21c.16,.02,.33,.04,.49,.06Z"/>
+        <path class="cls-10" d="M47.04,74.08h-1.72v.09c.58,0,1.15-.03,1.72-.09Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

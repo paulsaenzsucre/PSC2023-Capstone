@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510.8 80.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #272a31;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #f63;
+      }
+
+      .cls-4 {
+        fill: #0000df;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        font-family: IBMPlexMono-SemiBold, 'IBM Plex Mono';
+        font-size: 72px;
+        font-weight: 600;
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        fill: #ec5242;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <rect class="cls-5" x="40.65" y="23.47" width="11.15" height=".02"/>
+        <polygon class="cls-2" points="18.35 23.47 18.35 11.98 7.19 11.98 7.19 23.4 7.19 23.47 18.35 23.47"/>
+        <rect class="cls-3" x="18.35" y="11.98" width="11.15" height="11.5"/>
+        <rect class="cls-2" x="29.5" y="11.98" width="11.15" height="11.5"/>
+        <polygon class="cls-3" points="51.81 23.47 51.81 23.43 51.81 11.98 40.65 11.98 40.65 23.47 51.81 23.47"/>
+        <polygon class="cls-3" points="18.35 23.47 7.19 23.47 7.19 34.89 7.19 34.93 18.35 34.93 18.35 23.47"/>
+        <path class="cls-2" d="M29.5,23.49v-.02h-11.15v11.46h0c.03-6.32,5.01-11.44,11.15-11.44Z"/>
+        <path class="cls-3" d="M40.65,23.47h-11.15v.02c6.14,0,11.12,5.12,11.15,11.44h0v-11.46Z"/>
+        <rect class="cls-2" x="40.65" y="23.49" width="11.15" height="11.44"/>
+        <polygon class="cls-2" points="18.35 46.39 18.35 34.99 18.35 34.97 7.19 34.97 7.19 46.43 18.35 46.43 18.35 46.39"/>
+        <rect class="cls-1" x="7.19" y="34.93" width="11.15" height=".04"/>
+        <path class="cls-3" d="M18.35,34.99v11.4h9.71c-5.48-.73-9.71-5.55-9.71-11.4Z"/>
+        <path class="cls-7" d="M18.35,34.97v.02s0-.01,0-.02h0Z"/>
+        <path class="cls-7" d="M18.35,34.93h0v.04h0s0-.03,0-.04Z"/>
+        <path class="cls-2" d="M30.62,46.43h10.03v-11.44c0,5.96-4.4,10.86-10.03,11.44Z"/>
+        <path class="cls-1" d="M40.65,34.99v-.02h0s0,.01,0,.02Z"/>
+        <path class="cls-1" d="M40.65,34.97h0v-.04h0s0,.03,0,.04Z"/>
+        <rect class="cls-3" x="40.65" y="34.99" width="11.15" height="11.44"/>
+        <polygon class="cls-7" points="40.65 34.93 40.65 34.97 40.65 34.99 51.81 34.99 51.81 34.97 51.81 34.93 40.65 34.93"/>
+        <polygon class="cls-3" points="18.35 46.43 7.19 46.43 7.19 57.92 18.35 57.92 18.35 57.88 18.35 46.43"/>
+        <path class="cls-2" d="M28.38,46.43h-10.03v11.46h11.15v-11.4c-.38,0-.75-.02-1.12-.06Z"/>
+        <path class="cls-1" d="M28.06,46.39h-9.71v.04h10.03c-.11-.01-.21-.02-.32-.04Z"/>
+        <path class="cls-3" d="M29.5,46.48v11.4h11.15v-11.46h-10.03c-.37,.04-.74,.06-1.12,.06Z"/>
+        <polygon class="cls-2" points="40.65 46.43 40.65 57.88 40.65 57.92 51.81 57.92 51.81 46.46 51.81 46.43 40.65 46.43"/>
+        <rect class="cls-2" x="18.35" y="4.52" width="11.15" height="7.43"/>
+        <polygon class="cls-2" points="7.19 23.4 0 23.4 0 34.89 7.19 34.89 7.19 23.47 7.19 23.4"/>
+        <polygon class="cls-3" points="7.19 34.93 0 34.93 0 46.43 7.19 46.43 7.19 34.97 7.19 34.93"/>
+        <polygon class="cls-3" points="51.81 23.49 51.81 34.93 59 34.93 59 23.43 51.81 23.43 51.81 23.47 51.81 23.49"/>
+        <polygon class="cls-2" points="51.81 46.43 51.81 46.46 59 46.46 59 34.97 51.81 34.97 51.81 34.99 51.81 46.43"/>
+        <rect class="cls-3" x="29.5" y="4.52" width="11.15" height="7.43"/>
+        <polygon class="cls-3" points="29.5 57.88 18.35 57.88 18.35 57.92 18.35 65.31 29.5 65.31 29.5 57.92 29.5 57.88"/>
+        <rect class="cls-2" x="29.5" y="57.92" width="11.15" height="7.39"/>
+        <rect class="cls-1" x="29.5" y="57.88" width="11.15" height=".04"/>
+        <path class="cls-4" d="M29.5,46.48v-.06h-1.12c.37,.04,.74,.06,1.12,.06Z"/>
+        <path class="cls-4" d="M28.38,46.43h1.12v-.04h-1.44c.11,.01,.21,.03,.32,.04Z"/>
+        <path class="cls-4" d="M30.62,46.43h-1.12v.06c.38,0,.75-.02,1.12-.06Z"/>
+      </g>
+      <text class="cls-6" transform="translate(76 61.13)"><tspan class="cls-2" x="0" y="0">Paracas</tspan><tspan class="cls-3" x="276.69" y="0">S</tspan><tspan class="cls-3" x="316.22" y="0">oft</tspan></text>
+    </g>
+  </g>
+</svg>
