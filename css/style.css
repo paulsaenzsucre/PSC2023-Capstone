@@ -220,7 +220,7 @@ button {
 }
 
 .prog-cont {
-  background: url(./images/pattern.svg) var(--dark-gray-template);
+  background: url(images/pattern.svg) var(--dark-gray-template);
   background-size: 1rem;
 }
 
@@ -432,7 +432,7 @@ button {
 /* This applies from 768px onwards */
 @media (min-width: 48rem) {
   .hero {
-    background: url(./images/desktop-background.svg);
+    background: url(images/desktop-background.svg);
     background-repeat: repeat-x;
     background-position: top;
     background-size: cover;
