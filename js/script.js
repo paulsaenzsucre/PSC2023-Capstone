@@ -27,7 +27,7 @@ async function fillSpeakers() {
     speakCardCont.setAttribute('class', 'speak-card-cont');
     let x = 0;
 
-    speakers.forEach((speaker) => {      
+    speakers.forEach((speaker) => {
       const speakerInfo = document.createElement('div');
       speakerInfo.setAttribute('class', 'speak-card-info');
       let p = document.createElement('p');
@@ -99,7 +99,7 @@ myMediaQuery.addEventListener('change', () => {
   if (myMediaQuery.matches && blockScroll) document.getElementById('content').classList.add('scroll-lock');
   else document.getElementById('content').classList.remove('scroll-lock');
 
-  if (myMediaQuery.matches) hideAllCards()
+  if (myMediaQuery.matches) hideAllCards();
   else showAllCards();
 });
 
